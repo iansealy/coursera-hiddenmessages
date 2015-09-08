@@ -191,6 +191,10 @@ Output: All distinct I<k>-mers forming (I<L>, I<t>)-clumps in I<Genome>.
 
     perl clump-finding.pl --input_file dataset_4_5.txt > dataset_4_5_output.txt
 
+    perl clump-finding.pl \
+        --input_file <(cat E-coli.txt && echo && echo "9 500 3") \
+        | sed -e 's/ /\n/g' | wc -l > E-coli_output.txt
+
 =head1 USAGE
 
     clump-finding.pl
