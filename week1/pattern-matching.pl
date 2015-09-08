@@ -104,6 +104,10 @@ positions where I<Pattern> appears as a substring of I<Genome>.
     perl pattern-matching.pl --input_file dataset_3_5.txt \
         > dataset_3_5_output.txt
 
+    perl pattern-matching.pl \
+        --input_file <(echo "CTTGATCAT" && cat Vibrio_cholerae.txt) \
+        > Vibrio_cholerae_output.txt
+
 =head1 USAGE
 
     pattern-matching.pl
