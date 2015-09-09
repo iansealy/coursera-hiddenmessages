@@ -100,6 +100,9 @@ Output: I<Count>(I<Text>, I<Pattern>).
 
     perl pattern-count.pl --input_file dataset_2_6.txt > dataset_2_6_output.txt
 
+    perl pattern-count.pl \
+        --input_file <(echo -e "ACTGTACGATGATGTGTGTCAAAG\nTGT")
+
 =head1 USAGE
 
     pattern-count.pl

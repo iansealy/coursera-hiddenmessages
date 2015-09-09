@@ -124,6 +124,9 @@ Output: All most frequent I<k>-mers in I<Text>.
 
     perl frequent-words.pl --input_file dataset_2_9.txt > dataset_2_9_output.txt
 
+    perl frequent-words.pl \
+        --input_file <(echo -e "CGCCTAAATAGCCTCGCGGAGCCTTATGTCATACTCGTCCT\n3")
+
 =head1 USAGE
 
     frequent-words.pl

@@ -97,6 +97,8 @@ Output: I<Pattern>, the reverse complement of I<Pattern>.
     perl reverse-complement.pl --input_file dataset_3_2.txt \
         > dataset_3_2_output.txt
 
+    perl reverse-complement.pl --input_file <(echo "GATTACA")
+
 =head1 USAGE
 
     reverse-complement.pl
