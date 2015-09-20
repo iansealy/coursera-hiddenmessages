@@ -242,6 +242,10 @@ I<k>-mers.
     perl frequent-words-mismatch-complement.pl --input_file dataset_9_8.txt \
         > dataset_9_8_output.txt
 
+    perl frequent-words-mismatch-complement.pl \
+        --input_file <(grep -v '^>' Salmonella_enterica.txt | tr -d '\r\n' \
+            | cut -c3764607-3765107 && echo "9 1")
+
 =head1 USAGE
 
     frequent-words-mismatch-complement.pl

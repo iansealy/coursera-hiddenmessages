@@ -115,6 +115,9 @@ I<i> (from 0 to |I<Genome>|).
 
     perl minimum-skew.pl --input_file <(echo "GATACACTTCCCGAGTAGGTACTG")
 
+    perl minimum-skew.pl \
+        --input_file <(grep -v '^>' Salmonella_enterica.txt | tr -d '\r\n')
+
 =head1 USAGE
 
     minimum-skew.pl
