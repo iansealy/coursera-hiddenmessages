@@ -113,6 +113,8 @@ I<i> (from 0 to |I<Genome>|).
 
     perl minimum-skew.pl --input_file dataset_7_6.txt > dataset_7_6_output.txt
 
+    perl minimum-skew.pl --input_file <(echo "GATACACTTCCCGAGTAGGTACTG")
+
 =head1 USAGE
 
     minimum-skew.pl

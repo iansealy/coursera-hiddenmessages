@@ -115,6 +115,9 @@ Output: I<Countd>(I<Text>, I<Pattern>).
     perl approximate-pattern-count.pl --input_file dataset_9_6.txt \
         > dataset_9_6_output.txt
 
+    perl approximate-pattern-count.pl \
+        --input_file <(echo -e "AA\nTACGCATTACAAAGCACA\n1")
+
 =head1 USAGE
 
     approximate-pattern-count.pl

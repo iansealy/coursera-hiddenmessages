@@ -119,6 +119,8 @@ Output: The collection of strings I<Neighbors>(I<Pattern>, I<d>).
     perl neighbors.pl --input_file dataset_3014_3.txt \
         > dataset_3014_3_output.txt
 
+    perl neighbors.pl --input_file <(echo -e "ACGT\n3") | wc -l
+
 =head1 USAGE
 
     neighbors.pl

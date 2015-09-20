@@ -96,6 +96,9 @@ Output: The Hamming distance between these strings.
 
     perl hamming-distance.pl --input_file dataset_9_3.txt > dataset_9_3_output.txt
 
+    perl hamming-distance.pl \
+        --input_file <(echo -e "TGACCCGTTATGCTCGAGTTCGGTCAGAGCGTCATTGCGAGTAGTCGTTTGCTTTCTCAAACTCC\nGAGCGATTAAGCGTGACAGCCCCAGGGAACCCACAAAACGTGATCGCAGTCCATCCGATCATACA")
+
 =head1 USAGE
 
     hamming-distance.pl
