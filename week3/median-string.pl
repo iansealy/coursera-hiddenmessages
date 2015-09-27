@@ -16,8 +16,6 @@ use Carp;
 use Path::Tiny;
 use version; our $VERSION = qv('v0.1.0');
 
-use List::MoreUtils qw(uniq);
-
 # Default options
 my $input_file = 'median-string-sample-input.txt';
 my ( $debug, $help, $man );
