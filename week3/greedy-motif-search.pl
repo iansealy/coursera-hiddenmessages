@@ -187,8 +187,8 @@ first.
 
 =item B<--input_file FILE>
 
-The input file containing "A string I<Text>, an integer I<k>, and a 4 × I<k>
-matrix I<Profile>".
+The input file containing "Integers I<k> and I<t>, followed by a collection of
+strings I<Dna>".
 
 =item B<--debug>
 
