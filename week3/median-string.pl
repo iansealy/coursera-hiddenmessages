@@ -160,6 +160,9 @@ may return any one.)
     perl median-string.pl --input_file dataset_158_9.txt \
         > dataset_158_9_output.txt
 
+    perl median-string.pl \
+        --input_file <(echo -e "7\nCTCGATGAGTAGGAAAGTAGTTTCACTGGGCGAACCACCCCGGCGCTAATCCTAGTGCCC\nGCAATCCTACCCGAGGCCACATATCAGTAGGAACTAGAACCACCACGGGTGGCTAGTTTC\nGGTGTTGAACCACGGGGTTAGTTTCATCTATTGTAGGAATCGGCTTCAAATCCTACACAG")
+
 =head1 USAGE
 
     median-string.pl
