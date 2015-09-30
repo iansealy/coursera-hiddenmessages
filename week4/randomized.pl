@@ -188,7 +188,7 @@ B<RandomizedMotifSearch>(I<Dna>, I<k>, I<t>) 1,000 times.
 
     diff \
         <(perl randomized.pl --input_file randomized-extra-input.txt) \
-       randomized-extra-output.txt
+        randomized-extra-output.txt
 
     perl randomized.pl --input_file dataset_161_5.txt > dataset_161_5_output.txt
 
